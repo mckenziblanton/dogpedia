@@ -1,0 +1,49 @@
+/* Giving our welcome jumbotron less padding and a background color */
+.jumbotron {
+    background: #000000;
+    background-size: 100% 100%;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+/* Giving our navbar some padding and a background color */
+.navbar {
+  padding: 5px;
+  background: #0000;
+}
+
+/* Giving our container with the tab descriptions a background color */
+.container {
+    padding: 5px;
+    background: #fff;
+  }
+
+/* Putting navbar in horizontal block instead of list */
+.navbar li {
+  display: inline-block;
+  padding: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  background: #fff;
+  border-radius: 3px;
+}
+
+/* Font size of page description headers */
+.description h2 {
+    font-size: 40px;
+}
+
+/* Font size of page descriptions */
+.description p {
+    font-size: 25px;
+}
+
+/* Font and background color of tabs */
+.nav-tabs li a {
+    background: #fff;
+    color: black;
+}
